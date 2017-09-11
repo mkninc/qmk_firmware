@@ -48,9 +48,9 @@ COMMAND_ENABLE = no    # Commands for debug and configuration
 SLEEP_LED_ENABLE = no  # Breathing sleep LED during USB suspend
 NKRO_ENABLE = yes	    # USB Nkey Rollover
 CUSTOM_MATRIX = yes # Custom matrix file
-BACKLIGHT_ENABLE = no
-VISUALIZER_ENABLE = no
+BACKLIGHT_ENABLE = yes
+VISUALIZER_ENABLE = yes
 
-#LED_DRIVER = is31fl3731c
-#LED_WIDTH = 16 
-#LED_HEIGHT = 5
+LED_DRIVER = is31fl3731c
+LED_WIDTH = 14 
+LED_HEIGHT = 5
